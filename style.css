@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('mesa.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#ball{
+    width: 25px;
+    height: 25px;
+    background:yellow;
+    position:absolute;
+    left:10px;
+    top:0px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.bar{
+    width: 85px;
+    height: 89px;
+    background-image: url('ra1.png');
+}
+.barr{
+    background-image: url('ra2.png');
+}
+#bar1{
+    top: 20px;
+    float: left; 
+    position: absolute;
+}
+#bar2{
+    top: 20px;
+    right:0px;
+    position: absolute;
+}
